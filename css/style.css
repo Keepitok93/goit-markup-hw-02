@@ -1,3 +1,20 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: black;
+}
+.link_logo {
+  color: black;
+}
+.logo {
+  color: #2196f3;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  margin-left: 0;
+  padding-left: 0;
 }
