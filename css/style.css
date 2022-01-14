@@ -1,8 +1,12 @@
-body {
+* {
   font-family: "Roboto", sans-serif;
   color: black;
 }
-.link_logo {
+
+p {
+  margin: 0;
+}
+.header-link-logo {
   color: black;
 }
 .logo {
@@ -17,4 +21,18 @@ li {
 ul {
   margin-left: 0;
   padding-left: 0;
+}
+.hero-title {
+  color: #ffffff;
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: nullpx;
+}
+.hero {
+  height: 600px;
+  width: 1600px;
+  background-color: #2f303a;
+}
+.header {
+  background-color: #ececec;
 }
