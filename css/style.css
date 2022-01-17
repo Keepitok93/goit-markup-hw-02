@@ -22,7 +22,6 @@ p {
   letter-spacing: 0.06em;
   cursor: pointer;
   color: #FFFFFF;
-
   position: absolute;
   width: 200px;
   height: 50px;
@@ -121,9 +120,9 @@ color: #212121;
 
 .header-link-mail:focus{
    color: #2196f3;
-}
+} */
 
-.about-text{
+ .about-text{
   font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
@@ -137,3 +136,4 @@ letter-spacing: 0.03em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
