@@ -1,19 +1,12 @@
-* {
-  font-family: "Roboto", sans-serif;
-  color: black;
-}
 body {
   font-family: "Roboto", sans-serif;
   color: black;
 }
-
 p {
   margin: 0;
 }
-
-
-.btn{
-  font-weight: bold;
+.btn {
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.85;
   display: flex;
@@ -21,17 +14,16 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
-  background: #2196F3;
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-
 .header-link-logo {
   font-weight: bold;
   font-size: 26px;
@@ -56,6 +48,9 @@ ul {
   margin-left: 0;
   padding-left: 0;
 }
+.link {
+  color: inherit;
+}
 .hero-title {
   color: #ffffff;
   text-align: center;
@@ -71,12 +66,7 @@ ul {
   background-color: #2f303a;
 }
 .header {
-  /* position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px; */
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .header-item {
   font-weight: 500;
@@ -86,54 +76,182 @@ ul {
   cursor: pointer;
   color: #000000;
 }
-
-.header-link{
+.header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
-.header-contacts{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #212121;
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
-
 .header-current {
- color: #2196F3; 
+  color: #2196f3;
 }
 .header-link:hover,
 :focus {
   color: #2196f3;
-
+}
+.about-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.about-h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.about-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 .header-link-mail {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   cursor: pointer;
 }
-
-.header-link-mail:focus{
-   color: #2196f3;
-} */
-
- .about-text{
-  font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+.header-link-mail:hover {
+  color: #2196f3;
 }
-
-.about-h3 {
-  font-weight: bold;
+.header-link-tel {
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1,14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  cursor: pointer;
 }
-
+.header-link-tel:hover {
+  color: #2196f3;
+}
+.team-h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #757575;
+}
+.footer {
+  width: 1600px;
+  height: 252px;
+  background-color: #2f303a;
+}
+.footer-link-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  color: #ffffff;
+}
+.footer-link-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  color: #ffffff;
+}
+.footer-link-mail:hover {
+  color: #2196f3;
+}
+.footer-link-tel:hover {
+  color: #2196f3;
+}
+.footer-link-logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.footer-logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.adres {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: #ffffff;
+}
+.btn-one {
+  height: 38px;
+  width: 73px;
+  left: 495px;
+  top: 174px;
+  border-radius: 4px;
+}
+.btn-two {
+  height: 38px;
+  width: 128px;
+  left: 576px;
+  top: 174px;
+  border-radius: 4px;
+}
+.btn-three {
+  height: 38px;
+  width: 145px;
+  left: 712px;
+  top: 174px;
+  border-radius: 4px;
+}
+.btn-four {
+  height: 38px;
+  width: 103px;
+  left: 865px;
+  top: 174px;
+  border-radius: 4px;
+}
+.btn-five {
+  height: 38px;
+  width: 130px;
+  left: 976px;
+  top: 174px;
+  border-radius: 4px;
+}
+.h3-about {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #212121;
+}
+.text-about {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
+}
