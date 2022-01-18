@@ -131,7 +131,6 @@ ul {
   color: var(--header-color);
 }
 .about-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -166,7 +165,6 @@ ul {
   color: var(--header-color);
 }
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -228,6 +226,7 @@ ul {
   left: 495px;
   top: 174px;
   border-radius: 4px;
+  cursor: pointer;
 }
 .btn-two {
   height: 38px;
@@ -235,6 +234,7 @@ ul {
   left: 576px;
   top: 174px;
   border-radius: 4px;
+  cursor: pointer;
 }
 .btn-three {
   height: 38px;
@@ -242,6 +242,7 @@ ul {
   left: 712px;
   top: 174px;
   border-radius: 4px;
+  cursor: pointer;
 }
 .btn-four {
   height: 38px;
@@ -249,6 +250,7 @@ ul {
   left: 865px;
   top: 174px;
   border-radius: 4px;
+  cursor: pointer;
 }
 .btn-five {
   height: 38px;
@@ -256,6 +258,7 @@ ul {
   left: 976px;
   top: 174px;
   border-radius: 4px;
+  cursor: pointer;
 }
 .h3-about {
   font-weight: 700;
@@ -266,7 +269,6 @@ ul {
   color: var(--header-color);
 }
 .text-about {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
