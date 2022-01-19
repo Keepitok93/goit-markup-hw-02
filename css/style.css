@@ -24,24 +24,25 @@ body {
 p {
   margin: 0;
 }
+
 .btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.85;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  cursor: pointer;
+  text-align: center;
   color: var(--color-white);
-  position: absolute;
-  width: 200px;
+  background: rgba(33, 150, 243, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   height: 50px;
+  width: 200px;
   left: 700px;
   top: 430px;
-  background: var(--link-hover-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.btn:focus {
+  color: var(--color-white);
+  background: var(--link-hover-color);
 }
 .header-link-logo {
   font-weight: bold;
@@ -142,6 +143,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   cursor: pointer;
+  color: var(--color-paragraph);
 }
 .header-link-mail:hover {
   color: var(--link-hover-color);
@@ -152,6 +154,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   cursor: pointer;
+  color: var(--color-paragraph);
 }
 .header-link-tel:hover {
   color: var(--link-hover-color);
@@ -183,6 +186,7 @@ ul {
   letter-spacing: 0.02em;
   cursor: pointer;
   color: var(--color-white);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-link-mail {
   font-weight: 400;
@@ -191,6 +195,7 @@ ul {
   letter-spacing: 0.02em;
   cursor: pointer;
   color: var(--color-white);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-link-mail:hover {
   color: var(--link-hover-color);
@@ -221,44 +226,76 @@ ul {
   color: var(--color-white);
 }
 .btn-one {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+  cursor: pointer;
+  color: var(--header-color);
+
   height: 38px;
   width: 73px;
   left: 495px;
   top: 174px;
   border-radius: 4px;
-  cursor: pointer;
 }
 .btn-two {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+  cursor: pointer;
+  color: var(--header-color);
+
   height: 38px;
   width: 128px;
   left: 576px;
   top: 174px;
   border-radius: 4px;
-  cursor: pointer;
 }
 .btn-three {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+  cursor: pointer;
+  color: var(--header-color);
   height: 38px;
   width: 145px;
   left: 712px;
   top: 174px;
   border-radius: 4px;
-  cursor: pointer;
 }
 .btn-four {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+  cursor: pointer;
+  color: var(--header-color);
   height: 38px;
   width: 103px;
   left: 865px;
   top: 174px;
   border-radius: 4px;
-  cursor: pointer;
 }
 .btn-five {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+  cursor: pointer;
+  color: var(--header-color);
   height: 38px;
   width: 130px;
   left: 976px;
   top: 174px;
   border-radius: 4px;
-  cursor: pointer;
 }
 .h3-about {
   font-weight: 700;
@@ -267,6 +304,10 @@ ul {
   letter-spacing: 0.06em;
   text-align: left;
   color: var(--header-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  box-align: center;
 }
 .text-about {
   font-size: 16px;
@@ -276,17 +317,22 @@ ul {
   color: var(--color-paragraph);
 }
 .btn-one:hover {
-  color: var(--link-hover-color);
+  color: var(--color-white);
+  background: var(--link-hover-color);
 }
 .btn-two:hover {
-  color: var(--link-hover-color);
+  color: var(--color-white);
+  background: var(--link-hover-color);
 }
 .btn-three:hover {
-  color: var(--link-hover-color);
+  color: var(--color-white);
+  background: var(--link-hover-color);
 }
 .btn-four:hover {
-  color: var(--link-hover-color);
+  color: var(--color-white);
+  background: var(--link-hover-color);
 }
 .btn-five:hover {
-  color: var(--link-hover-color);
+  color: var(--color-white);
+  background: var(--link-hover-color);
 }
