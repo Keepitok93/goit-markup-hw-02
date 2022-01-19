@@ -1,19 +1,9 @@
 :root {
   --link-hover-color: #2196f3;
-}
-:root {
-  --color-paragraph: #757575;
-}
-:root {
   --color-white: #ffffff;
-}
-:root {
+  --color-paragraph: #757575;
   --footer-color: #2f303a;
-}
-:root {
   --header-color: #212121;
-}
-:root {
   --color-black: #000000;
 }
 
@@ -41,7 +31,8 @@ p {
   top: 430px;
   border-radius: 4px;
 }
-.btn:focus {
+.btn:focus,
+.btn:hover {
   color: var(--color-white);
   background: var(--link-hover-color);
 }
@@ -146,7 +137,8 @@ ul {
   cursor: pointer;
   color: var(--color-paragraph);
 }
-.header-link-mail:hover {
+.header-link-mail:hover,
+.header-link-mail:focus {
   color: var(--link-hover-color);
 }
 .header-link-tel {
@@ -157,7 +149,8 @@ ul {
   cursor: pointer;
   color: var(--color-paragraph);
 }
-.header-link-tel:hover {
+.header-link-tel:hover,
+.header-link-tel:focus {
   color: var(--link-hover-color);
 }
 .team-h3 {
@@ -198,10 +191,12 @@ ul {
   color: var(--color-white);
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-link-mail:hover {
+.footer-link-mail:hover,
+.footer-link-mail:focus {
   color: var(--link-hover-color);
 }
-.footer-link-tel:hover {
+.footer-link-tel:hover,
+.footer-link-tel:focus {
   color: var(--link-hover-color);
 }
 .footer-link-logo {
@@ -303,9 +298,6 @@ ul {
   letter-spacing: 0.06em;
   text-align: left;
   color: var(--header-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  display: flex;
 }
 .text-about {
   font-size: 16px;
@@ -314,23 +306,19 @@ ul {
   text-align: left;
   color: var(--color-paragraph);
 }
-.btn-one:hover {
+.btn-one:hover,
+.btn-one:focus,
+.btn-three:hover,
+.btn-three:focus,
+.btn-four:hover,
+.btn-four:focus,
+.btn-five:hover,
+.btn-five:focus {
   color: var(--color-white);
   background: var(--link-hover-color);
 }
-.btn-two:hover {
-  color: var(--color-white);
-  background: var(--link-hover-color);
-}
-.btn-three:hover {
-  color: var(--color-white);
-  background: var(--link-hover-color);
-}
-.btn-four:hover {
-  color: var(--color-white);
-  background: var(--link-hover-color);
-}
-.btn-five:hover {
+.btn-two:hover,
+.btn-two:focus {
   color: var(--color-white);
   background: var(--link-hover-color);
 }
