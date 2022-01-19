@@ -317,8 +317,3 @@ ul {
   color: var(--color-white);
   background: var(--link-hover-color);
 }
-.btn-two:hover,
-.btn-two:focus {
-  color: var(--color-white);
-  background: var(--link-hover-color);
-}
