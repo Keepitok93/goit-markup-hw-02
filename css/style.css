@@ -6,7 +6,6 @@
   --header-color: #212121;
   --color-black: #000000;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-black);
@@ -14,8 +13,8 @@ body {
 p {
   margin: 0;
 }
-
 .btn {
+  font-family: "roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.85;
@@ -37,6 +36,7 @@ p {
   background: var(--link-hover-color);
 }
 .header-link-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -167,6 +167,8 @@ ul {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--color-paragraph);
+
+  /*----------------Подвал-------------------*/
 }
 .footer {
   width: 1600px;
@@ -221,7 +223,8 @@ ul {
   font-style: normal;
   color: var(--color-white);
 }
-.btn-one {
+.btn-nav-prtf {
+  font-family: "roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -235,62 +238,12 @@ ul {
   top: 174px;
   border-radius: 4px;
 }
-.btn-two {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  text-align: center;
-  cursor: pointer;
-  color: var(--header-color);
-  height: 38px;
-  width: 128px;
-  left: 576px;
-  top: 174px;
-  border-radius: 4px;
+.btn-nav-prtf:hover,
+.btn-nav-prtf:focus {
+  color: var(--color-white);
+  background: var(--link-hover-color);
 }
-.btn-three {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  text-align: center;
-  cursor: pointer;
-  color: var(--header-color);
-  height: 38px;
-  width: 145px;
-  left: 712px;
-  top: 174px;
-  border-radius: 4px;
-}
-.btn-four {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  text-align: center;
-  cursor: pointer;
-  color: var(--header-color);
-  height: 38px;
-  width: 103px;
-  left: 865px;
-  top: 174px;
-  border-radius: 4px;
-}
-.btn-five {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  text-align: center;
-  cursor: pointer;
-  color: var(--header-color);
-  height: 38px;
-  width: 130px;
-  left: 976px;
-  top: 174px;
-  border-radius: 4px;
-}
+
 .h3-about {
   font-weight: 700;
   font-size: 18px;
@@ -306,16 +259,24 @@ ul {
   text-align: left;
   color: var(--color-paragraph);
 }
-.btn-one:hover,
-.btn-one:focus,
-.btn-two:hover,
-.btn-two:focus,
-.btn-three:hover,
-.btn-three:focus,
-.btn-four:hover,
-.btn-four:focus,
-.btn-five:hover,
-.btn-five:focus {
-  color: var(--color-white);
-  background: var(--link-hover-color);
+.about {
+  height: 101px;
+  width: 1170px;
+  left: 215px;
+  top: 774px;
+  border-radius: nullpx;
+}
+.about-h3 {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 215px;
+  top: 774px;
+}
+.about-text {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 800px;
 }
